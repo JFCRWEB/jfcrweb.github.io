@@ -85,15 +85,15 @@ const currentYear = new Date().getFullYear();
         </div>
       </div>
 
+      <!-- Foto de Perfil en lugar de Spotify -->
       <div class="flex flex-col items-center lg:items-start space-y-6">
-        <div class="w-full max-w-xs">
-          <iframe
-            style="border-radius:12px; border:0;"
-            src="https://open.spotify.com/embed/album/6Y6UejW92VRsyOlszGLaZU?utm_source=generator&theme=0"
-            class="w-full h-40"
-            allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"></iframe>
+        <div class="w-full max-w-xs flex justify-center lg:justify-start">
+          <img
+            src="/me.jpg"
+            alt="José Francisco Carrión Ramos"
+            class="w-40 h-40 object-cover rounded-2xl border border-[var(--white-icon-tr)] shadow-lg hover:scale-105 transition duration-300 ease-in-out"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>
